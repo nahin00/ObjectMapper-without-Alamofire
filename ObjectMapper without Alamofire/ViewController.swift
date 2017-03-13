@@ -2,17 +2,27 @@
 //  ViewController.swift
 //  ObjectMapper without Alamofire
 //
-//  Created by Silicon Orchard Ltd on 3/13/17.
 //  Copyright © 2017 Nahin Ahmed. All rights reserved.
 //
 
 import UIKit
+import ObjectMapper
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let user = User(username: "nahin", age: 20)
+        
+        print("username: \(user.username!)")
+        print("age: \(user.age)")
+        
+        let temperature = Temperature(celcius: 0.0, fahrenheit: 0.1)
+        
+        print("celcius: \(temperature.celcius!)")
+        print("fahrenheit: \(temperature.fahrenheit!)")
     }
 
     override func didReceiveMemoryWarning() {

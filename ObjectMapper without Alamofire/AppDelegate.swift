@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  ObjectMapper without Alamofire
 //
-//  Created by Silicon Orchard Ltd on 3/13/17.
 //  Copyright © 2017 Nahin Ahmed. All rights reserved.
 //
 
