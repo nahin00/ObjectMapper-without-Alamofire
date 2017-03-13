@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
        
         
-        // Convert a JSON string to a model object:
+        // Convert a JSON string to a model object
         
         let JSONStringToModelObject = User(JSONString: ModelObjectToJSONString! )
         print(JSONStringToModelObject!)
