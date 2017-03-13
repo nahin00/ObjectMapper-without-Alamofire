@@ -9,7 +9,7 @@ import Foundation
 import ObjectMapper
 
 class User: Mappable {
-    var username: String?
+    var username: String!
     var age : Int = 0
     
     init(username: String, age: Int) {
